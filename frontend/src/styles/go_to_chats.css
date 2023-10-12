@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+
+Link {
+    text-decoration: none;
+}
+
+.GoToChatsMain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.GoToChatsMainDiv {
+    width: 35%;
+    height: 600px;
+    margin-top: 14%;
+    display:flex;
+    flex-flow: column wrap;
+}
+
+.GoToChatsWelcomeTextDiv {
+    margin: 0 auto;
+    height: 100px;
+    width: 500px;
+    z-index: 1;
+}
+
+.GoToChatsWelcomeText {
+    font-size: 50px;
+    text-align: center;
+    color: #5f97d8;
+    white-space: nowrap;
+    white-space: pre;
+    z-index: 1;
+}
+
+.GoToChatsLoginForm{
+    margin: 0 auto;
+    height: 200px;
+    width: 400px;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+        
+}
+
+.GoToChatsEnterUserdata {
+    text-align: center;
+    color: #164e8d;
+    font-size: 24px;
+    padding-top: 40px;
+}
+
+.GoToChatsInputs {
+    display:flex;
+    flex-flow: column wrap;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.GoToChatsButtons {
+    color: #ffffff;
+    background: #5f97d8;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    border-color: #5f97d800;;
+    border-radius: 20px;
+    position: relative;
+    height: 60px;
+    width: 300px;
+}
+
+.GoToChatsButton {
+    color: #ffffff;
+    background: #5f97d8d2;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    border-color: #5f97d800;;
+    border-radius: 20px;
+    position: relative;
+    height: 60px;
+    width: 300px;
+}
+
+.GoToChatsLink {
+    margin-bottom: 40px;
+    height: 60px;
+    width: 300px;
+}
+
+.GoToChatsLoginedForm {
+    margin: 0 auto;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
